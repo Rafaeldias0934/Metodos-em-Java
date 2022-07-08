@@ -6,6 +6,6 @@ public class Main {
         Calculadora.subtracao(14,4);
         Calculadora.multiplicacao(200,10);
         Calculadora.divisao(40,10);
-        System.out.println("Hello world!");
+
     }
 }
