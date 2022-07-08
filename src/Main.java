@@ -1,11 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
+        // Calculadora
         System.out.println("Exercicios da calculadora");
         Calculadora.soma(35,41);
         Calculadora.subtracao(14,4);
         Calculadora.multiplicacao(200,10);
         Calculadora.divisao(40,10);
 
+        // Hora do dia
+        System.out.println("Mensagem do dia: ");
+        Mensagem.obterMensagem(1);
+        Mensagem.obterMensagem(14);
+        Mensagem.obterMensagem(20);
     }
 }
